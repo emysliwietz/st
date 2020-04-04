@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "mono:pixelsize=32:antialias=true:autohint=true";
-static char *font2[] = { "Inconsolata for Powerline:pixelsize32:antialias=true:autohint=true" };
+static char *font = "SourceCodePro Semibold:pixelsize=32:antialias=true:autohint=true";
+static char *font2[] = { "FontAwesome:pixelsize=20:antialias=true:autohint=true:fixed=true" };
 static int borderpx = 2;
 
 /*
