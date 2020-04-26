@@ -1,5 +1,4 @@
 /* See LICENSE file for copyright and license details. */
-
 /*
  * appearance
  *
@@ -242,6 +241,8 @@ static Shortcut shortcuts[] = {
 	{ MODKEY,               XK_Home,        zoomreset,      {.f =  0} },
 	{ MODKEY,               XK_c,           clipcopy,       {.i =  0} },
 	{ ShiftMask,            XK_Insert,      clippaste,      {.i =  0} },
+	{ ShiftMask,            XK_End,         killline,       {.i =  0} },
+	{ 0,                    XK_Delete,      killline,       {.i =  0} },
 	{ MODKEY,               XK_v,           clippaste,      {.i =  0} },
 	{ XK_ANY_MOD,		Button2,	selpaste,	{.i =  0} },
 	{ MODKEY,               XK_Num_Lock,    numlock,        {.i =  0} },

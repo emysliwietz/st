@@ -94,6 +94,7 @@ void kscrollup(const Arg *);
 void printscreen(const Arg *);
 void printsel(const Arg *);
 void sendbreak(const Arg *);
+void killline(const Arg *arg);
 void toggleprinter(const Arg *);
 
 int tattrset(int);
