@@ -2040,7 +2040,7 @@ sendbreak(const Arg *arg)
 void
 killline(const Arg *arg)
 {
-  tclearregion(term.c.x, term.c.y, term.col-1, term.c.y);
+
 }
 
 void
